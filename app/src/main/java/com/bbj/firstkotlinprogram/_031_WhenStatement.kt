@@ -4,6 +4,7 @@ fun main(args: Array<String>) {
 
     print("Enter a day number of the week: ")
     var dayNumber:Int = readLine()!!.toInt()
+    //if input is "a" => Exception in thread "main" java.lang.NumberFormatException: For input string: "a"
     var day:String
 
     when(dayNumber)
